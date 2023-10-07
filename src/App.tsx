@@ -5,7 +5,6 @@ import Login from "./pages/Login";
 import Dashboard from "./pages/Dashboard";
 import AuthContext from "./contexts/AuthContext";
 import AuthLayout from "./components/layout/AuthLayout";
-import "./App.scss";
 
 function App() {
 	const [isAuthenticated, setIsAuthenticated] = useState(true);
